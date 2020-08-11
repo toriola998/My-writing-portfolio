@@ -1,0 +1,275 @@
+
+#paragraph1{
+    color: #000000;
+    height: 100vh;
+  
+}
+
+#intro {
+  text-align: center;
+  padding-top: 210px;
+
+}
+#hello {
+    font-size: 11px;
+    color:#F5054F;
+    font-weight: light;
+}
+
+#name {
+    color: #000000;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+#description {
+  font-size: 10px;
+  font-family: sans-serif;
+  font-style: oblique;
+}
+
+/*CSS styling for name animations (starts)*/
+@keyframes name {
+    0%   {color: #FA422A;}
+    25%  {color: #F3C623;}
+    50%  {color: #0504AA;}
+    75%  {color: red;}
+    100% {color: #02066F;}
+  }
+
+#name {
+    animation-name: name;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: 5; 
+  }
+
+
+/*CSS styling for animations (end)*/
+#paragraph1 {
+    color: #061539;
+    padding:20px 20px 0px 20px;
+    font-weight: bold; 
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: whitesmoke;
+}
+
+.color {
+    background-color: #061539;
+    color: whitesmoke;
+    padding: 30px;
+    margin: 20px;
+}
+
+h3{
+    color: #F3C623;
+    font-style: italic;
+}
+
+h4 {
+    text-align: center;
+}
+
+/*CSS styling for navigations*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #061539;
+  font-size: 10px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #F3C623;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+    background-color: gray;
+  }
+
+
+/*CSS styling for navigations*/
+
+button {
+    background-color: #F3C623;
+    color: #061539;
+    border: none;
+    border-radius: 25px;
+    padding: 6px 6px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.foot, footer, #about-me {
+    text-align: center;
+    color: #061539;
+}
+
+.about {
+  color: #061539;
+}
+
+ footer {
+    font-size: 11px;
+    color: #061539;
+}
+
+#lagoslink {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.underline {
+    text-decoration: none;
+    font-weight: bold;
+    color:  #061539;
+}
+
+  /*media queries for big phone*/
+  @media only screen and (min-width: 375px) {
+    #hello {
+      font-size: 12px;
+    }
+    #name{
+      font-size: 31px;
+    }
+
+    #description {
+    font-size: 12px;
+  }
+
+  ul {
+    font-size: 13px;
+  } 
+}
+  /*media queries for tablets*/
+@media only screen and (min-width: 600px) {
+    #hello {
+    font-size: 14px;
+    }
+
+    #name{
+      font-size: 38px;
+    }
+
+    button {
+      font-size: 14px;
+      font-weight: 600px; 
+    }
+    
+    body {
+      font-size: 19px;
+    }
+
+    footer {
+      font-size: 12px;
+    }
+
+    #description {
+      font-size: 12px;
+    }
+
+    ul {
+      font-size: 18px
+    }
+  }
+    
+  /*media query for laptop size*/
+@media only screen and (min-width: 900px) {
+  #hello {
+    font-size: 18px;
+    }
+
+    #name{
+      font-size: 44px;
+    }
+
+    button {
+      font-size: 18px;
+      font-weight: 700px; 
+    }
+    
+    body {
+      font-size: 22px;
+    }
+
+    footer {
+      font-size: 15px;
+    }
+
+    #description {
+      font-size: 16px;
+    }
+
+    ul {
+      font-size: 24px
+    }
+  }
+  
+
+  /*media query of  larger laptop size*/
+@media only screen and (min-width: 1200px) {
+  #hello {
+    font-size: 21px;
+    }
+
+    #name{
+      font-size: 52px;
+    }
+
+    button {
+      font-size: 20px;
+      font-weight: 700px; 
+    }
+    
+    body {
+      font-size: 25px;
+    }
+
+    footer {
+      font-size: 18px;
+    }
+    
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
